@@ -1,0 +1,5 @@
+I just finished the first version of the project, spellchk. The program is meant to check for the spelling of text in a file.
+
+The first version is done. It was done in some 1.5 hours. No major problems were faced. I could recall some needed information related to python without much effort, after some time of not programming. I added and generated the ssh key, for github. Git repo was created and the code has been pushed, to github as well. 
+
+The state of code is not satisfying. This owes to the nature of problem and the time spent on it. The problem is to check spelling of English text, the text which can have words from the dicitionary, but, the words can be modified when in use, like, have to having, addict to addictive. I have used the plain system dictionary for this. So, as such, more logic may be needed to make the spell check correct. The logic word here can be improved a little, what might be needed is a grammar, or, some kind of technique which is different from what I have used.
