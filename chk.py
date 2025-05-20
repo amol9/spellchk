@@ -41,5 +41,25 @@ for w in words_in_file:
             #print(w3)
             if w3 not in words:
                 print(w3)
+        elif w2[-2:] == "ed":
+            w3 = w2[:-2]
+            if w3 not in words:
+                #print(w3)
+                w3 += 'e'
+                #w3 = w2[:-2]
+                if w3 not in words:
+                    print(w3)
+        elif w2[-3:] == "ing":
+            w3 = w2[:-3]
+            if w3 not in words:
+                #print(w3)
+                w3 += 'e'
+                #w3 = w2[:-2]
+                if w3 not in words:
+                    print(w3)
+        elif w2[-3:] == "ive":
+            w3 = w2[:-3]
+            if w3 not in words:
+                print(w3)
         else:
             print(w2)
